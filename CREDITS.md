@@ -1,22 +1,22 @@
-# Crediti
+# Credits
 
 ## Fork
 
-- **RedzSoul** — autore del fork, modifiche, supporto OpenTaiko 0.6.0.107
+- **RedzSoul** — fork author, modifications, OpenTaiko 0.6.0.107 support
 
-## Skin originale
+## Original skin
 
-- **[Moshir](https://github.com/MoshirMoshir)** — autore di [Moshir's OpenTaiko Skin](https://github.com/MoshirMoshir/Moshir-OpenTaiko-Skin), base di questo fork
+- **[Moshir](https://github.com/MoshirMoshir)** — author of [Moshir's OpenTaiko Skin](https://github.com/MoshirMoshir/Moshir-OpenTaiko-Skin), the base of this fork
 
-## Asset e risorse
+## Assets and resources
 
-- **[Bandai Namco](https://taiko.namco-ch.net/taiko/en/)** — personaggi e asset originali della serie Taiko no Tatsujin
-- **[Takkkon](https://github.com/Takkkom)** — asset da [OpTk StandardStyle](https://github.com/Takkkom/OpTk-StandardStyle)
-- **あきら Ch** — asset della skin OpenTaiko Nijiiro di あきら Ch.
-- **[OpenTaiko Team](https://github.com/0auBSQ/OpenTaiko)** — asset Open World Memories e SimpleStyle inclusi in OpenTaiko
-- **[RedzSoul/OpenTaiko-Skins](https://github.com/RedzSoul/OpenTaiko-Skins)** — modulo Modules/NamePlate (script e texture dei title plate) da SimpleStyle (1080p)
-- **[Spriters Resource](https://www.spriters-resource.com/arcade/taikonotatsujin2020version/)** — asset sprite utilizzati
+- **[Bandai Namco](https://taiko.namco-ch.net/taiko/en/)** — original characters and assets from the Taiko no Tatsujin series
+- **[Takkkon](https://github.com/Takkkom)** — assets from [OpTk StandardStyle](https://github.com/Takkkom/OpTk-StandardStyle)
+- **あきら Ch** — assets from あきら Ch.'s OpenTaiko Nijiiro skin
+- **[OpenTaiko Team](https://github.com/0auBSQ/OpenTaiko)** — Open World Memories and SimpleStyle assets bundled with OpenTaiko
+- **[RedzSoul/OpenTaiko-Skins](https://github.com/RedzSoul/OpenTaiko-Skins)** — Modules/NamePlate module (title plate script and textures) from SimpleStyle (1080p)
+- **[Spriters Resource](https://www.spriters-resource.com/arcade/taikonotatsujin2020version/)** — sprite assets used
 
-## Note licenze
+## License notes
 
-Vedere la cartella `System/RedzSoul-OpenTaiko-Skin/Licenses/` per le licenze dei singoli componenti.
+See the `System/RedzSoul-OpenTaiko-Skin/Licenses/` folder for individual component licenses.

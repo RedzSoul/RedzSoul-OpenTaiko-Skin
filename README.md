@@ -1,50 +1,50 @@
 # RedzSoul-OpenTaiko-Skin
 
-Fork di [Moshir's OpenTaiko Skin](https://github.com/MoshirMoshir/Moshir-OpenTaiko-Skin), aggiornato per supportare **OpenTaiko 0.6.0.107** e personalizzato da RedzSoul.
+Fork of [Moshir's OpenTaiko Skin](https://github.com/MoshirMoshir/Moshir-OpenTaiko-Skin), updated to support **OpenTaiko 0.6.0.107** and customized by RedzSoul.
 
-Vedi [CREDITS.md](CREDITS.md) per i crediti completi.
+See [CREDITS.md](CREDITS.md) for full credits.
 
-## Requisiti
+## Requirements
 
-- **OpenTaiko versione 0.6.0.107** esatta. Versioni diverse (precedenti o successive) potrebbero non essere compatibili: questa skin include fix specifici per bug introdotti in questa versione (sistema `Modules/`, parsing texture). Per controllare la tua versione, guarda il titolo della finestra del gioco o il file `OpenTaiko.log`.
+- **OpenTaiko version 0.6.0.107** exactly. Other versions (earlier or later) may not be compatible: this skin includes fixes specific to bugs introduced in this version (`Modules/` system, texture parsing). To check your version, look at the game window title or the `OpenTaiko.log` file.
 
-## Come installare
+## How to install
 
-1. Scarica l'ultima release da [Releases](https://github.com/RedzSoul/RedzSoul-OpenTaiko-Skin/releases) (file `.zip`), oppure clicca il bottone verde `Code` → `Download ZIP` su questa pagina.
-2. Estrai lo zip. Se hai scaricato dal bottone `Code`, otterrai una cartella tipo `RedzSoul-OpenTaiko-Skin-main`: apri quella cartella, il passo 3 si riferisce al suo **contenuto**, non alla cartella stessa.
-3. Copia le seguenti due cose nella cartella di installazione di OpenTaiko:
-   - la cartella `System/RedzSoul-OpenTaiko-Skin/` → dentro la cartella `System/` di OpenTaiko (risultato finale: `OpenTaiko/System/RedzSoul-OpenTaiko-Skin/`)
-   - il contenuto della cartella `Global/` → dentro la cartella `Global/` di OpenTaiko, **unendo** i file (non sovrascrivere/eliminare quello che già c'è: questa skin aggiunge personaggi e Puchichara extra, non li sostituisce)
-4. Avvia OpenTaiko, vai nelle impostazioni e seleziona **RedzSoul-OpenTaiko-Skin** come skin attiva.
-5. **Riavvia completamente il gioco** (chiudi e riapri): OpenTaiko richiede un riavvio per applicare correttamente la nuova skin.
+1. Download the latest release from [Releases](https://github.com/RedzSoul/RedzSoul-OpenTaiko-Skin/releases) (`.zip` file), or click the green `Code` button → `Download ZIP` on this page.
+2. Extract the zip. If you downloaded from the `Code` button, you'll get a folder like `RedzSoul-OpenTaiko-Skin-main`: open that folder, step 3 refers to its **contents**, not the folder itself.
+3. Copy the following two things into your OpenTaiko installation folder:
+   - the `System/RedzSoul-OpenTaiko-Skin/` folder → into OpenTaiko's `System/` folder (final result: `OpenTaiko/System/RedzSoul-OpenTaiko-Skin/`)
+   - the contents of the `Global/` folder → into OpenTaiko's `Global/` folder, **merging** the files (do not overwrite/delete what's already there: this skin adds extra characters and Puchichara, it doesn't replace them)
+4. Launch OpenTaiko, go to settings and select **RedzSoul-OpenTaiko-Skin** as the active skin.
+5. **Fully restart the game** (close and reopen it): OpenTaiko requires a restart to correctly apply the new skin.
 6. Enjoy!
 
-### Dove si trova la cartella di OpenTaiko?
+### Where is the OpenTaiko folder?
 
-Dipende da come hai installato il gioco. Percorsi comuni su Windows:
-- `%LocalAppData%\OpenTaiko Hub\OpenTaiko\` (installazione tramite OpenTaiko Hub)
-- la cartella dove hai estratto/installato OpenTaiko manualmente
+It depends on how you installed the game. Common paths on Windows:
+- `%LocalAppData%\OpenTaiko Hub\OpenTaiko\` (installed via OpenTaiko Hub)
+- the folder where you manually extracted/installed OpenTaiko
 
-Se non sei sicuro, cerca la cartella che contiene `OpenTaiko.exe` e una sottocartella `System/`: quella è la cartella giusta.
+If you're not sure, look for the folder that contains `OpenTaiko.exe` and a `System/` subfolder: that's the right one.
 
-## Risoluzione problemi
+## Troubleshooting
 
-| Problema | Causa probabile | Soluzione |
+| Problem | Likely cause | Fix |
 |---|---|---|
-| La skin non appare nella lista skin del gioco | Hai copiato l'intera cartella del repository invece di solo `System/RedzSoul-OpenTaiko-Skin/` | Verifica che il percorso finale sia `OpenTaiko/System/RedzSoul-OpenTaiko-Skin/SkinConfig.ini` (non annidato più in profondità) |
-| Errori `CLuaModalScript`/`CLuaNamePlateScript` al boot | Stai usando una versione di OpenTaiko diversa da 0.6.0.107 | Verifica/aggiorna la versione del gioco |
-| Personaggi o Puchichara extra mancanti | Non hai copiato il contenuto di `Global/` | Ripeti il passo 3, sezione Global |
-| Le modifiche alla skin non si vedono dopo un cambiamento | Il gioco non è stato riavviato | Chiudi completamente OpenTaiko e riaprilo |
+| The skin doesn't show up in the game's skin list | You copied the entire repository folder instead of just `System/RedzSoul-OpenTaiko-Skin/` | Check that the final path is `OpenTaiko/System/RedzSoul-OpenTaiko-Skin/SkinConfig.ini` (not nested deeper) |
+| `CLuaModalScript`/`CLuaNamePlateScript` errors at boot | You're using an OpenTaiko version other than 0.6.0.107 | Check/update your game version |
+| Missing extra characters or Puchichara | You didn't copy the contents of `Global/` | Repeat step 3, Global section |
+| Skin changes don't show up after an update | The game wasn't restarted | Fully close OpenTaiko and reopen it |
 
-Per qualsiasi altro problema, apri una [issue](https://github.com/RedzSoul/RedzSoul-OpenTaiko-Skin/issues) con il messaggio di errore esatto (visibile in `OpenTaiko.log`, nella cartella di installazione del gioco).
+For any other issue, open an [issue](https://github.com/RedzSoul/RedzSoul-OpenTaiko-Skin/issues) with the exact error message (visible in `OpenTaiko.log`, in the game's installation folder).
 
 ## FAQ
 
-1. Cosa sono i file `.kra`?
-> File di lavoro Krita usati per creare i corrispondenti asset `.png`. Non servono per il funzionamento della skin, sono inclusi per chi vuole modificare gli asset.
+1. What are the `.kra` files?
+> Krita working files used to create the corresponding `.png` assets. Not needed for the skin to work, included for anyone who wants to edit the assets.
 
 ## More Information
 
-Per segnalare errori o suggerimenti, apri una issue su questo repository.
+To report bugs or suggestions, open an issue on this repository.
 <br><br>
-Se Namco o i proprietari degli asset hanno problemi con la distribuzione di questa skin o dei loro asset, contattatemi e renderò immediatamente privata la repository.
+If Namco or asset owners have an issue with me distributing this skin or their assets, please contact me and I will immediately make this repository private.
