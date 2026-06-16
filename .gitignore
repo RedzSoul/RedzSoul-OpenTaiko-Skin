@@ -1,3 +1,10 @@
 
 /OpenTaiko-0.5.4
 /OpenTaiko-0.6.0.b3
+
+# Editor backup files
+*~
+
+# Krita source files belong in Sources/, not in the distributed skin
+System/**/*.kra
+Global/**/*.kra
