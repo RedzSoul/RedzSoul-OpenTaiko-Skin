@@ -14,6 +14,7 @@
 - **[Takkkon](https://github.com/Takkkom)** — asset da [OpTk StandardStyle](https://github.com/Takkkom/OpTk-StandardStyle)
 - **あきら Ch** — asset della skin OpenTaiko Nijiiro di あきら Ch.
 - **[OpenTaiko Team](https://github.com/0auBSQ/OpenTaiko)** — asset Open World Memories e SimpleStyle inclusi in OpenTaiko
+- **[RedzSoul/OpenTaiko-Skins](https://github.com/RedzSoul/OpenTaiko-Skins)** — modulo Modules/NamePlate (script e texture dei title plate) da SimpleStyle (1080p)
 - **[Spriters Resource](https://www.spriters-resource.com/arcade/taikonotatsujin2020version/)** — asset sprite utilizzati
 
 ## Note licenze
