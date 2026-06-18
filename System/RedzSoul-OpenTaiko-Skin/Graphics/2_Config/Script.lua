@@ -23,6 +23,7 @@ end
 function init()
     func:AddGraph("Background.png")
     func:AddGraph("Header.png")
+    func:AddGraph("Header_it.png")
 end
 
 function update()
@@ -36,7 +37,8 @@ function draw()
     for i = 0, 3 do
         func:DrawGraph(x + i * bg_width, y, "Background.png")
     end
-    func:DrawGraph(0, 0, "Header.png")
+    local header = (lang == "it") and "Header_it.png" or "Header.png"
+    func:DrawGraph(0, 0, header)
 end
 
 function reloadLanguage(lang)
