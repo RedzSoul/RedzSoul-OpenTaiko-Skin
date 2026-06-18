@@ -13,6 +13,7 @@
 local loadingAnimeType = 0
 
 local optkAngle = 0
+local background = "Background.png"
 
 function clearIn(player)
 end
@@ -21,7 +22,10 @@ function clearOut(player)
 end
 
 function init()
-    func:AddGraph("Background.png")
+    if lang == "it" then
+        background = "Background_it.png"
+    end
+    func:AddGraph(background)
 
     if loadingAnimeType == 0 then
         func:AddGraph("OpTKIcon.png")
@@ -37,7 +41,7 @@ function update()
 end
 
 function draw()
-    func:DrawGraph(0, 0, "Background.png")
+    func:DrawGraph(0, 0, background)
     if loadingAnimeType == 0 then
         func:SetRotation(optkAngle, "OpTKIcon.png")
         func:DrawGraph(1720, 880, "OpTKIcon.png")

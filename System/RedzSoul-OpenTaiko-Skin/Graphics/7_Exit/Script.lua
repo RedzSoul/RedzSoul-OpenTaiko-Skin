@@ -39,6 +39,8 @@ function init()
       speech = "Speech/es.png"
     elseif lang == "zh" then
       speech = "Speech/zh.png"
+    elseif lang == "it" then
+      speech = "Speech/it.png"
     end
 
     func:AddGraph(speech)
